@@ -21,7 +21,10 @@ const TutorialHeader = () => (
     </HeaderName>
     <HeaderNavigation aria-label="Carbon Tutorial">
       <HeaderMenuItem element={Link} to="/repos">
-        Repositories
+        Repos
+      </HeaderMenuItem>
+      <HeaderMenuItem element={Link} to="/equip">
+        Equipment Table
       </HeaderMenuItem>
     </HeaderNavigation>
     <HeaderGlobalBar>

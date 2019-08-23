@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   DataTable,
   TableContainer,
@@ -23,6 +24,7 @@ const RepoTable = ({ rows, headers }) => {
     <DataTable
       rows={rows}
       headers={headers}
+      isSortable={true}
       render={({
         rows,
         headers,
